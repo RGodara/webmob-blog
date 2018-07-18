@@ -1,0 +1,55 @@
+.logo-size {
+	width: 12%;
+	height: 12%;
+}
+.error-massage {
+	color: red;
+}
+.success-message {
+	font-size: 17px;
+	color: green;
+}
+.profile-image {
+	width: 10%;
+}
+.clickable-elements {
+	cursor: pointer;
+}
+.blog-content {
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}
+.loder-wp .img {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.loder-wp .img img{width: 100%;}
+.loder-wp{position: absolute;
+    width: 100%;
+    height: 100%;
+	z-index: 1500;
+}
+.loder-wp:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.8);
+    content: '';
+    left: 0;
+    top: 0;
+}
+.marquee-text {
+    color: red;
+}
+.marquee-text-background {
+    background: #a3ffaa;
+}
