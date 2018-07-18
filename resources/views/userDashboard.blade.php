@@ -152,10 +152,10 @@
         </div>
         <div class="tech-btm">
           <h4>Recent Posts</h4>
-          <div v-for="(userPost, index ) in userPosts.slice(0,3)" class="blog-grids row mb-3 text-left">
+          <div v-for="(userPost, index ) in userPosts.slice(0,3)" v-on:click="getPostDetail(userPost)" class="blog-grids row mb-3 text-left">
             <div class="col-md-7 blog-grid-right">
               <h5>
-                <a href="single.html">@{{userPost.heading}} </a>
+                <a href="#blogPost">@{{userPost.heading}} </a>
               </h5>
               <div class="sub-meta">
                 <span>
