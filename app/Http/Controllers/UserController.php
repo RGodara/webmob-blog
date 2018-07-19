@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Auth;
@@ -12,7 +11,6 @@ use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
-
 class UserController extends Controller
 {
     /**
@@ -75,7 +73,6 @@ class UserController extends Controller
             return $userPosts;
         }
     }
-
     /**
      * Show the form for creating a new resource.
      *
@@ -124,7 +121,6 @@ class UserController extends Controller
         $newUser->save();
         return 1;
     }
-
     /**
      * Store a newly created resource in storage.
      *
@@ -135,7 +131,6 @@ class UserController extends Controller
     {
         //
     }
-
     /**
      * Display the specified resource.
      *
@@ -146,7 +141,6 @@ class UserController extends Controller
     {
         //
     }
-
     /**
      * Show the form for editing the specified resource.
      *
@@ -157,7 +151,6 @@ class UserController extends Controller
     {
         //
     }
-
     /**
      * Update the specified resource in storage.
      *
@@ -169,7 +162,6 @@ class UserController extends Controller
     {
         //
     }
-
     /**
      * Remove the specified resource from storage.
      *
